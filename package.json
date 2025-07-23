@@ -1,0 +1,24 @@
+{
+  "name": "practice",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon server.js",
+    "start": "cross-env NODE_ENV=production node server.js",
+    "sass": "sass --watch src/styles/main.scss:src/styles/main.css",
+    "build": "vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@prettier/plugin-pug": "^3.4.0",
+    "cross-env": "^7.0.3",
+    "express": "^5.1.0",
+    "gsap": "^3.13.0",
+    "nodemon": "^3.1.10",
+    "pug": "^3.0.3",
+    "sass": "^1.89.2",
+    "vite": "^7.0.5"
+  }
+}

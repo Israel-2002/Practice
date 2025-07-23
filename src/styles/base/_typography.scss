@@ -1,0 +1,10 @@
+@use "../abstracts/variables" as *;
+
+@font-face {
+    font-family: $gallero-vintage;
+    src: url(/assets/fonts/gallero-vintage-regular.woff2);
+}
+
+body {
+    font-family: $gallero-vintage;
+}
